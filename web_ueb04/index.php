@@ -1,0 +1,61 @@
+<?php require "head.php" ?>
+	<title>Startseite</title>
+</head>
+<body>
+    <!-- Skiplinks für den Screenreader auf Teaser und Artikel. -->
+    <div class="screenReaderSkipLinks">
+        <a class="screenReaderSkipLink" href="#navigationSkip">Navigation</a>
+        <a class="screenReaderSkipLink" href="#teaserSkip">Teaser</a>
+        <a class="screenReaderSkipLink" href="#homenewsSkip">Homenews</a>
+        <a class="screenReaderSkipLink" href="#articlesSkip">Artikel</a>
+    </div>
+<?php include "navigation.php" ?>
+	<!-- Rechte Neuigkeitenleiste -->
+	<div class="homenews" id="homenewsSkip">
+		<button onclick="toogleDiv('homenews')"><img src="buttons/button2.svg"  alt="button2"/></button>
+		<div>
+			<h3>Neue Seite am Start</h3>
+			<p>
+				Endlich ist die neue Seite fertig und sieht gar nicht mal so scheiße aus...
+			</p>
+			<h3>Alles super toll!</h3>
+			<p>
+				Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in
+			</p>
+		</div>
+	</div>
+	<!-- Teaser -->
+	<div class="teaser" id="teaserSkip">
+		<div>
+			<img src="images/teaser.jpg" alt="Ein Mann und eine Frau am Geländer..."/>
+			<h2>Teaser</h2>
+			<p>Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas </p>
+			<a href="article.html">To the article</a>
+		</div>
+	</div>
+	<!-- 4 Articles -->
+	<div class="articles" id="articlesSkip">
+		<button onclick="addDiv('articles')">Add</button>
+		<button onclick="delDiv('articles')">Del</button>
+		<div>
+			<img src="images/a.png" alt="Das Bild zu Artikel A"/>
+			<p>Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin allein und freue mich meines Lebens in dieser Gegend, die für solche Seelen geschaffen ist wie die meine. Ich bin so glücklich, mein Bester, so ganz in dem</p>
+			<a href="article.html">To the article</a>
+		</div>
+		<div>
+			<img src="images/b.png" alt="Das Bild zu Artikel B"/>
+			<p>Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war, als sollte die Scham ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren</p>
+			<a href="article.html">To the article</a>
+		</div>
+		<div>
+			<img src="images/c.jpg" alt="Das Bild zu Artikel C"/>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+			<a href="article.html">To the article</a>
+		</div>
+		<div>
+			<img src="images/d.jpg" alt="Das Bild zu Artikel D"/>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+			<a href="article.html">To the article</a>
+		</div>
+	</div>
+<?php require "foot.php" ?>

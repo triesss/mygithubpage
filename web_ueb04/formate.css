@@ -1,0 +1,475 @@
+/*
+* === Overall ===
+*/
+@media screen {
+    .screenReaderSkipLinks {
+        display:none;
+    }
+    .screenReaderSkipLink {
+        display:none;
+    }
+}
+@media speech {
+    .screenReaderSkipLinks {
+        display:inline;
+    }
+    .screenReaderSkipLink {
+        display:inline;
+   }
+}
+header {
+	width: 100%;
+	top: 0px;
+	background-color: white;
+
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+}
+body {
+	background-color: rgb(238,238,238);
+}
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 25px;
+	background-color: #757575;
+	color: #EEEEEE;
+	padding-top: 2px;
+	text-align: right;
+	font-size: 15px;
+}
+footer a{
+    margin-right: 1em;
+}
+footer a:link, footer a:visited{
+	margin-right: 1em;
+	color: #EEEEEE;
+	text-decoration: none;
+}
+footer a:hover , a:active{
+	text-decoration: underline;
+}
+/*
+* --- font of whole page ---
+*/
+.navigation {
+	font-family: 'RobotoDraft','Roboto', sans-serif;
+}
+h1, h2, p, a, div, footer, input, textarea{
+	font-family: 'RobotoDraft','Roboto', sans-serif;
+}
+/*
+* === Navigation bar ===
+*/
+.navigation {
+	font-size: 20px;
+	width: 100%;
+	height: 35px;
+	text-align: left;
+	background-color: #757575;
+	margin-bottom: 5px;
+}
+div.navigation a:link, div.navigation a:visited {
+	margin-left: 0.5em;
+	font-weight: 300;
+    color: #EEEEEE;
+    padding: 2px 5px;
+	width: 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+div.navigation a:hover, div.navigation a:active {
+	color: #8BC34A;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom-width: 5px;
+	border-color: #8BC34A;
+	border-width: 3px;
+}
+.homenews {
+	margin-top: 2em;
+    float: right;
+    margin-bottom: 3em;border-radius: 2px;
+	width: 20%;
+    max-width: 20%;
+	height: auto;
+	text-align: justify;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+	background-color: white;
+}
+div.homenews div {
+	letter-spacing: 0.07em;
+	line-height: 1.2em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+/*
+* === Teaser article ===
+*/
+.teaser {
+	margin-top: 2em;
+	margin-left: 4em;
+	height: auto;
+	max-height: 250px;
+	max-width: 65%;
+}
+div.teaser div, div.newsflash div {
+    border-radius: 2px;
+	width: auto;
+	height: auto;
+	box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.30);
+	background-color: white;
+	float: left;
+	padding-right: 1em;
+	margin-bottom: 3em;
+	letter-spacing: 0.1em;
+	line-height: 1.3em;
+}
+div.teaser img, div.newsflash img{
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 100%;
+    width: 25%;
+	float: left;
+	margin-right: 0.5em;
+}
+div.teaser h2{
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-align: left;
+}
+div.teaser p, div.newsflash p, div.articles p{
+	text-align: justify;
+	margin-top: 0px;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+ }
+ div.teaser p{
+     font-weight: bold;
+ }
+div.teaser a, div.newsflash a{
+	float: right;
+}
+/*
+* === articles under teaser ===
+*/
+.articles {
+	margin-top: 2em;
+	margin-left: 4em;
+    margin-bottom: 3em;
+	width: 70%;
+	height: 300px;
+}
+div.articles div{
+    border-radius: 2px;
+	width: 45%;
+	height: auto;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	padding-right: 0.5em;
+	float: left;
+	text-align: justify;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.2);
+	background-color: white;
+	letter-spacing: 0.07em;
+	line-height: 1.2em;
+}
+div.articles img{
+	height: 100%;
+	width: 25%;
+	float: left;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+div.articles a{
+	float: right;
+}
+/*
+* === Menu on left side of article.hmtl and news.html ===
+*/
+.menu {
+	font-size: 17px;
+	word-spacing: 2px;
+	float: left;
+	margin-bottom: 2em;
+	max-width: 30%;
+	background-color: #C5E1A5;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.30);
+}
+div.menu a:link, div.menu a:visited {
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width: 100px;
+}
+div.menu a:hover, div.menu a:active {
+	text-decoration: underline;
+	color: #8BC34A;
+}
+div.menu ul {
+	padding-left: 0px;
+}
+div.menu li{
+	border-style: solid;
+	border-color: #EEEEEE;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom-width: 1px;
+	height: auto;
+	list-style: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	list-style-position: outside;
+}
+div.menu li:first-of-type{
+	padding-top: 0;
+}
+div.menu li:last-of-type{
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+div.menu a:first-of-type {
+	font-size: 20px;
+}
+/*
+* === lorem ipsum article at article.html ===
+*/
+.articlebox {
+    margin: auto;
+    width: 70%;
+}
+.lorem, .lorem2 {
+    border-radius: 2px;
+	float: left;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	padding: 0.5em 0.7em 0.5em 0.7em;
+	width: 47%;
+	text-align: justify;
+	/*letter-spacing: 0.1em;*/
+	line-height: 1.5em;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+	background-color: white;
+}
+.lorem2 {
+    float: right;
+}
+div.lorem img, div.lorem2 img{
+	float: left;
+	max-width: 50%;
+	height: auto;
+}
+/*
+* === Impressum ===
+*/
+div.impress, div.disclaimer, div.agb {
+    border-radius: 2px;
+	margin: auto;
+	margin-top: 2em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	width: 70%;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+	background-color: white;
+}
+div.agb {
+	margin-bottom: 3em;
+}
+/*
+* === About-Us ===
+*/
+.autors {
+    width: 70%;
+	margin: 2em auto;
+}
+div.autors div{
+    border-radius: 2px;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 2em;
+    margin-left: 1em;
+	padding: 0.5em 0.2em 0.5em 0.2em;
+	width: 46%;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+	background-color: white;
+}
+div.autors div:last-of-type {
+    margin-bottom: 3em;
+}
+div.autors img{
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	float: left;
+	height: auto;
+	max-width: 50%;
+}
+/*
+* === News ===
+*/
+.newsflash{
+	margin: auto;
+	margin-top: 2em;
+	width: 70%;
+}
+div.newsflash div{
+    border-radius: 2px;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+div.newsflash img {
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	max-width: 25%;
+}
+div.newsflash p{
+	font-weight: normal;
+}
+/*
+*=== contact.html
+*/
+.contactform {
+    margin: 2em auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+.formular {
+    text-align: center;
+    margin: auto;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+div.formular label{
+}
+div.formular input{
+    width: 25%;
+    border-style: solid;
+    background-color: #C5E1A5;
+    /*border-color: #9E9E9E;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;*/
+    border: solid 1px #9E9E9E;
+    box-shadow: none;
+    border-radius: 2px;
+}
+div.formular input:invalid{
+}
+div.formular input:valid{
+}
+div.formular select{
+    border: solid 1px #9E9E9E;
+    border-radius: 2px;
+    width: 25%;
+}
+div.formular textarea{
+    border-radius: 2px;
+    border: solid 1px #9E9E9E;
+    background-color: #C5E1A5;
+    width: 75%;
+    resize: none;
+}
+div.formular button{
+    border: solid 1px #9E9E9E;
+    border-radius: 2px;
+}
+/*
+*=== about2.html ===
+ */
+.about2 {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+div.about2 div{
+    border-radius: 2px;
+	margin-top: 2em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+	background-color: white;
+}
+div.about2 div:last-of-type{
+    margin-bottom: 3em;
+}
+div.about2 img:first-of-type{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+div.about2 img{
+    width: 45%;
+    height: auto;
+}
+div.about2 h2{
+    text-align: center;
+}
+div.menu button ,div.homenews button, div.about2 button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+div.homenews button{
+    float: right;
+}
+div.menu button, div.homenews button img, div.about2 img{
+    width: 50px;
+    height: auto;
+    /*box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);*/
+}
+#fixedButtonL {
+    position: fixed;
+    top: 50%;
+    left: 0px;
+}
+#fixedButtonR {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
+#fixedButtonL button, #fixedButtonR button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+#fixedButtonL img, #fixedButtonR img{
+    width: 50px;
+    height: auto;
+}
+.search_container{
+    background: #fff none repeat scroll 0 0;
+    color: #000 !important;
+    margin-left: 600px;
+    position: relative;
+    width: 300px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.4);
+}
+.search_container li{
+    list-style: none;
+    max-height: 300px;
+}
+.search_container li a:link, .search_container li a:visited{
+    overflow: auto;
+    color: black;
+}

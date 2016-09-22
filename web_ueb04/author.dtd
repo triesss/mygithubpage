@@ -1,0 +1,9 @@
+<!DOCTYPE authors
+[
+<!ELEMENT authors (author+)>
+<!ELEMENT author (name,email,number,fax)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+]>
