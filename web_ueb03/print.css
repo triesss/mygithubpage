@@ -1,0 +1,185 @@
+/*
+* === Overall ===
+*/
+.screenReaderSkipLinks {
+    display:none;
+}
+.screenReaderSkipLink {
+    display:none;
+}
+header {
+    display: none;
+}
+body {
+	background-color: white;
+}
+footer {
+	display: none;
+}
+/*
+* --- font of whole page ---
+*/
+h1, h2, p, a, div, footer{
+	font-family: 'RobotoDraft','Roboto', sans-serif;
+}
+.homenews {
+	margin-top: 2em;
+}
+div.homenews div {
+    margin: auto;
+	width: 90%;
+	height: auto;
+	text-align: justify;
+	background-color: white;
+	letter-spacing: 0.07em;
+	line-height: 1.2em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+/*
+* === Teaser article ===
+*/
+.teaser {
+    margin: auto;
+	margin-top: 2em;
+	height: auto;
+	max-width: 90%;
+}
+div.teaser div, div.newsflash div {
+	width: auto;
+	height: auto;
+	background-color: white;
+	float: left;
+	padding-right: 1em;
+	margin-bottom: 3em;
+	letter-spacing: 0.1em;
+	line-height: 1.3em;
+}
+div.teaser img, div.newsflash img{
+    height: 100%;
+    width: 25%;
+	float: left;
+	margin-right: 0.5em;
+}
+div.teaser h2{
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-align: left;
+}
+div.teaser p, div.newsflash p, div.articles p{
+	text-align: justify;
+	margin-top: 0px;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	font-weight: bold;
+ }
+div.teaser a, div.newsflash a{
+	display: none;
+}
+/*
+* === articles under teaser ===
+*/
+.articles {
+    margin: auto;
+	margin-top: 2em;
+	width: 90%;
+	height: auto;
+}
+div.articles div{
+	width: 100%;
+	height: auto;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	padding-right: 0.5em;
+	float: left;
+	text-align: justify;
+	background-color: white;
+	letter-spacing: 0.07em;
+	line-height: 1.2em;
+}
+div.articles img{
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+div.articles a{
+	display: none;
+}
+/*
+* === Menu on left side of article.hmtl ===
+*/
+.menu {
+	display: none;
+}
+/*
+* === lorem ipsum article at article.html ===
+*/
+.lorem, .lorem2 {
+	margin:auto;
+	width: 90%;
+	text-align: justify;
+	line-height: 20px;
+}
+div.lorem img, div.lorem2 img{
+	float: left;
+	max-width: 50%;
+	height: auto;
+}
+/*
+* === Impressum ===
+*/
+div.impress, div.disclaimer, div.agb {
+	margin: auto;
+	margin-top: 2em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	width: 90%;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 20px;
+	background-color: white;
+}
+div.agb {
+	margin-bottom: 3em;
+}
+/*
+* === About-Us ===
+*/
+.autors {
+	margin:auto;
+}
+div.autors div{
+    float: left;
+	width: 70%;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	background-color: white;
+}
+div.autors img{
+	float: left;
+	height: auto;
+	max-width: 50%;
+}
+div.autors ul{
+}
+/*
+* === News ===
+*/
+.newsflash{
+    margin:auto;
+}
+div.newsflash div{
+    width: 90%;
+    text-align: justify;
+    line-height: 20px;
+    box-shadow: 0 0 0 0;
+}
+div.newsflash img {
+	max-width: 25%;
+}
+div.newsflash p{
+	font-weight: normal;
+}
+div.newsflash a{
+    display: none;
+}
